@@ -1,0 +1,18 @@
+[filter "lfs"]
+    process = git-lfs filter-process
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+[user]
+    name = Pawan Kumar
+    email = pawan.kumar@sophos.com
+[push]
+    autoSetupRemote = true
+[commit]
+    template = ~/.gitmessage.txt
+[safe]
+    directory = * 
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+    excludesfile = /Users/pawan.kumar/.gitignore_global

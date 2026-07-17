@@ -1,0 +1,7 @@
+
+
+# <type>: <subject>   (<=50 chars, imperative: "add", not "added")
+#
+# <body> — what and why, not how. Wrap at 72 chars.
+#
+# type: feat | fix | chore | refactor | docs | test | style | perf

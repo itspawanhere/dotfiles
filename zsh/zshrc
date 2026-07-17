@@ -1,0 +1,25 @@
+DOTFILES="$(cd "$(dirname "${(%):-%N}")/.." && pwd)"
+export DOTFILES
+
+source "$DOTFILES/zsh/oh-my-zsh.zsh"
+
+source "$DOTFILES/zsh/exports.zsh"
+source "$DOTFILES/zsh/paths.zsh"
+
+source "$DOTFILES/zsh/aliases.zsh"
+source "$DOTFILES/zsh/functions.zsh"
+
+source "$DOTFILES/zsh/java.zsh"
+source "$DOTFILES/zsh/python.zsh"
+source "$DOTFILES/zsh/node.zsh"
+source "$DOTFILES/zsh/gcloud.zsh"
+source "$DOTFILES/zsh/docker.zsh"
+source "$DOTFILES/zsh/terraform.zsh"
+source "$DOTFILES/zsh/mallard.zsh"
+source "$DOTFILES/zsh/atuin.zsh"
+
+source "$DOTFILES/zsh/gradle.zsh"
+source "$DOTFILES/zsh/diary.zsh"
+
+[[ -f "$DOTFILES/zsh/local.zsh" ]] &&
+    source "$DOTFILES/zsh/local.zsh"

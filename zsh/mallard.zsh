@@ -1,0 +1,1 @@
+source <(mallard completion zsh)
