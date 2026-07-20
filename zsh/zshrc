@@ -1,5 +1,4 @@
-DOTFILES="$(cd "$(dirname "${(%):-%N}")/.." && pwd)"
-export DOTFILES
+export DOTFILES="${${(%):-%N}:A:h:h}"
 
 source "$DOTFILES/zsh/oh-my-zsh.zsh"
 
