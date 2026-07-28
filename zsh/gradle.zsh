@@ -62,13 +62,13 @@ prisma() {
     /Applications/Prisma/twistcli images scan --token $PA_TOKEN --address $PA_PATH --details $image
 }
 
-gstsyncdev() {
+gstsyncmain() {
     branch=$(git rev-parse --abbrev-ref HEAD)
     git stash
-    git checkout develop
+    git checkout main
     git pull
     git checkout $branch
-    git merge --no-edit develop
+    git merge --no-edit main
     git stash pop
 }
 
