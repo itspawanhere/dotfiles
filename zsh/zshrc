@@ -9,6 +9,7 @@ source "$DOTFILES/zsh/aliases.zsh"
 source "$DOTFILES/zsh/functions.zsh"
 
 source "$DOTFILES/zsh/java.zsh"
+source "$DOTFILES/zsh/android.zsh"
 source "$DOTFILES/zsh/python.zsh"
 source "$DOTFILES/zsh/node.zsh"
 source "$DOTFILES/zsh/gcloud.zsh"
