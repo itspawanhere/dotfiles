@@ -16,13 +16,10 @@ source "$DOTFILES/zsh/gcloud.zsh"
 source "$DOTFILES/zsh/docker.zsh"
 source "$DOTFILES/zsh/terraform.zsh"
 source "$DOTFILES/zsh/atuin.zsh"
+source "$DOTFILES/zsh/grok.zsh"
 
 source "$DOTFILES/zsh/gradle.zsh"
 source "$DOTFILES/zsh/diary.zsh"
 
 [[ -f "$DOTFILES/zsh/local.zsh" ]] &&
     source "$DOTFILES/zsh/local.zsh"
-
-. "$HOME/.atuin/bin/env"
-
-eval "$(atuin init zsh)"

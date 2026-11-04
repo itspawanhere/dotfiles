@@ -15,3 +15,12 @@ export GITLAB_ARTIFACTS_TOKEN="your-token-here"
 export OPEN_ROUTER_KEY="your-key-here"
 export NOVA_API_KEY="your-key-here"
 export LOCALSTACK_AUTH_TOKEN="your-token-here"
+
+# Work: Claude Code via corporate Foundry (fill in real values)
+export CLAUDE_CODE_USE_FOUNDRY=1
+export ANTHROPIC_FOUNDRY_API_KEY="your-foundry-key-here"
+export ANTHROPIC_FOUNDRY_BASE_URL="https://your-foundry-url/apim/claude"
+export ANTHROPIC_CUSTOM_HEADERS="user-id: your-user-id"
+export ANTHROPIC_LOG="debug"
+export NODE_EXTRA_CA_CERTS="$HOME/.claude-certs/full_chain.pem"
+export CLAUDE_CODE_ENABLE_FINE_GRAINED_TOOL_STREAMING=1

@@ -26,6 +26,4 @@ path_append "$HOME/Documents/personal/flutter-sdk/flutter/bin"
 
 path_append "$HOME/Documents/personal/flutter-sdk/flutter"
 
-path_prepend "$HOME/.mallard/bin"
-
 path_append "$HOME/.lmstudio/bin"

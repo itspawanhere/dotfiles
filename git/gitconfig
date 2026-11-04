@@ -1,11 +1,11 @@
 [filter "lfs"]
-    process = git-lfs filter-process
-    required = true
-    clean = git-lfs clean -- %f
-    smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
 [user]
-    name = Pawan Kumar
-    email = pawan.kumar@sophos.com
+    name = itspawanhere
+    email = pawanwrites93@gmail.com
 [push]
     autoSetupRemote = true
 [commit]
