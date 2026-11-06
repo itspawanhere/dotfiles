@@ -1,8 +1,6 @@
 export NVM_DIR="$HOME/.nvm"
 
-[[ -s /opt/homebrew/opt/nvm/nvm.sh ]] &&
-    source /opt/homebrew/opt/nvm/nvm.sh
+[[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
 
-[[ -s /opt/homebrew/opt/nvm/etc/bash_completion.d/nvm ]] &&
-    source /opt/homebrew/opt/nvm/etc/bash_completion.d/nvm
+[[ -s "$NVM_DIR/bash_completion" ]] && source "$NVM_DIR/bash_completion"
     
